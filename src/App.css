@@ -24,7 +24,7 @@ body {
   width: 300px;
   text-align: center;
   padding: 40px;
-  border-radius: 16px;
+  border-radius: 26px;
 }
 
 #root {
@@ -38,7 +38,12 @@ body {
   margin-top: 16px;
   background-color: black;
   border-radius: 15%;
-  border-bottom-left-radius: 45%;
-  border-bottom-right-radius: 45%;
   width: 200px;
+}
+
+.column-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
