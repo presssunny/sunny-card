@@ -34,7 +34,7 @@ function App() {
             onChange={(e) => setInsertMessage(e.target.value)}
             placeholder="message "
           />
-          <button className="send"> send the message</button>
+          <button className="send"> send the message now!</button>
           <div> </div>
           <button className=" close-btn" onClick={() => setShowMessage(false)}>
             close the window{" "}
